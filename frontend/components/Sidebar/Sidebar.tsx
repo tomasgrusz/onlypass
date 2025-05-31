@@ -36,23 +36,23 @@ import {
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/home",
     icon: <Home />,
   },
   {
     title: "Explore",
-    url: "#",
+    url: "/explore",
     icon: <Search />,
     enabled: false,
   },
   {
     title: "My Passes",
-    url: "#",
+    url: "/passes",
     icon: <Tickets />,
   },
   {
     title: "Settings",
-    url: "#",
+    url: "/settings",
     icon: <Settings />,
     enabled: false,
   },
