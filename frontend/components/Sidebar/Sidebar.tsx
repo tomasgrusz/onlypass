@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "./Sidebar.module.scss";
 import {
   SidebarContent,
@@ -17,33 +19,42 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "../ui/collapsible";
-import { ChevronDown } from "lucide-react";
+import {
+  Book,
+  ChevronDown,
+  HelpCircle,
+  Home,
+  MessageSquareHeart,
+  Phone,
+  Search,
+  Settings,
+  ShieldUser,
+  Ticket,
+  Tickets,
+} from "lucide-react";
 
 const items = [
   {
     title: "Home",
     url: "#",
-    icon: <></>,
+    icon: <Home />,
   },
   {
     title: "Explore",
     url: "#",
-    icon: <></>,
+    icon: <Search />,
+    enabled: false,
   },
   {
     title: "My Passes",
     url: "#",
-    icon: <></>,
-  },
-  {
-    title: "Search",
-    url: "#",
-    icon: <></>,
+    icon: <Tickets />,
   },
   {
     title: "Settings",
     url: "#",
-    icon: <></>,
+    icon: <Settings />,
+    enabled: false,
   },
 ];
 
@@ -51,7 +62,7 @@ const recentPasses = [
   {
     title: "Pass 1",
     url: "#",
-    icon: <></>,
+    icon: <Ticket />,
   },
 ];
 
@@ -59,27 +70,32 @@ const helpItems = [
   {
     title: "Help Center",
     url: "#",
-    icon: <></>,
+    icon: <HelpCircle />,
+    enabled: false,
   },
   {
     title: "Contact Support",
     url: "#",
-    icon: <></>,
+    icon: <Phone />,
+    enabled: false,
   },
   {
     title: "Privacy Policy",
     url: "#",
-    icon: <></>,
+    icon: <ShieldUser />,
+    enabled: false,
   },
   {
     title: "Terms of Service",
     url: "#",
-    icon: <></>,
+    icon: <Book />,
+    enabled: false,
   },
   {
     title: "Feedback",
     url: "#",
-    icon: <></>,
+    icon: <MessageSquareHeart />,
+    enabled: false,
   },
 ];
 
@@ -92,9 +108,20 @@ const Sidebar = () => {
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
-                <SidebarMenuItem key={item.title}>
+                <SidebarMenuItem
+                  key={item.title}
+                  className={item.enabled === false ? styles.disabled : ""}
+                >
                   <SidebarMenuButton asChild>
-                    <a href={item.url}>
+                    <a
+                      href={item.url}
+                      className={item.enabled === false ? styles.disabled : ""}
+                      onClick={
+                        item.enabled === false
+                          ? (e) => e.preventDefault()
+                          : undefined
+                      }
+                    >
                       {item.icon}
                       <span>{item.title}</span>
                     </a>
@@ -110,7 +137,10 @@ const Sidebar = () => {
           <SidebarGroupContent>
             <SidebarMenu>
               {recentPasses.map((item) => (
-                <SidebarMenuItem key={item.title}>
+                <SidebarMenuItem
+                  key={item.title}
+                  className={item.enabled === false ? styles.disabled : ""}
+                >
                   <SidebarMenuButton asChild>
                     <a href={item.url}>
                       {item.icon}
@@ -136,7 +166,10 @@ const Sidebar = () => {
               <SidebarGroupContent>
                 <SidebarMenu>
                   {helpItems.map((item) => (
-                    <SidebarMenuItem key={item.title}>
+                    <SidebarMenuItem
+                      key={item.title}
+                      className={item.enabled === false ? styles.disabled : ""}
+                    >
                       <SidebarMenuButton asChild>
                         <a href={item.url}>
                           {item.icon}
