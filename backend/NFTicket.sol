@@ -8,9 +8,9 @@ contract NFTicket is ERC721 {
     uint256 public tokenCounter;
 
     struct NFTDetails {
-        string location;   // adresa
-        string date;       // dátum (ako string, prípadne môžeš použiť uint256 ak chceš timestamp)
-        string name;       // názov
+        string location;
+        string date;
+        string name;
     }
 
     mapping(uint256 => NFTDetails) private _tokenDetails;
