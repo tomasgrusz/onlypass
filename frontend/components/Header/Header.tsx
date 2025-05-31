@@ -8,7 +8,7 @@ const Header = () => {
     <header className={cn(styles.Header)}>
       <Image
         id="logo"
-        src="/icon.svg"
+        src="/icon-simplified.svg"
         alt="OnlyPass Logo"
         height={24}
         width={24}
