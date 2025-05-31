@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "name": "🎶 Coldplay Live",
+    "description": "Experience Coldplay's Music of the Spheres World Tour.",
+    "image": "https://picsum.photos/seed/1/200/300",
+    "date": "2024-05-20",
+    "location": "London"
+  },
+  {
+    "id": "4",
+    "name": "🚀 Space Exploration Expo",
+    "description": "Discover the latest in space technology and exploration.",
+    "image": "https://picsum.photos/seed/2/200/300",
+    "date": "2024-06-10",
+    "location": "Houston"
+  },
+  {
+    "id": "5",
+    "name": "🎨 Modern Art Exhibit",
+    "description": "Explore stunning pieces from modern-day artists.",
+    "image": "https://picsum.photos/seed/3/200/300",
+    "date": "2024-04-22",
+    "location": "New York"
+  },
+  {
+    "id": "6",
+    "name": "🍴 Culinary Festival",
+    "description": "Taste diverse cuisines from around the world.",
+    "image": "https://picsum.photos/seed/4/200/300",
+    "date": "2024-08-05",
+    "location": "Paris"
+  },
+  {
+    "id": "7",
+    "name": "🎬 Indie Film Premiere",
+    "description": "Experience groundbreaking independent films.",
+    "image": "https://picsum.photos/seed/5/200/300",
+    "date": "2024-09-12",
+    "location": "Berlin"
+  },
+  {
+    "id": "8",
+    "name": "📚 Book Fair",
+    "description": "Meet your favorite authors and discover new books.",
+    "image": "https://picsum.photos/seed/6/200/300",
+    "date": "2024-11-03",
+    "location": "Toronto"
+  },
+  {
+    "id": "9",
+    "name": "🎮 Gaming Convention",
+    "description": "Join gamers worldwide for tournaments and previews.",
+    "image": "https://picsum.photos/seed/7/200/300",
+    "date": "2024-10-20",
+    "location": "San Francisco"
+  },
+  {
+    "id": "10",
+    "name": "🏎️ Motorsports Championship",
+    "description": "Witness high-speed races and adrenaline-filled competitions.",
+    "image": "https://picsum.photos/seed/8/200/300",
+    "date": "2024-07-28",
+    "location": "Monaco"
+  },
+  {
+    "id": "11",
+    "name": "🏟️ Soccer Derby",
+    "description": "Feel the excitement of one of the biggest rivalries.",
+    "image": "https://picsum.photos/seed/9/200/300",
+    "date": "2024-05-30",
+    "location": "Madrid"
+  },
+  {
+    "id": "12",
+    "name": "🎭 Shakespeare in the Park",
+    "description": "Enjoy a classic play under the stars.",
+    "image": "https://picsum.photos/seed/10/200/300",
+    "date": "2024-06-22",
+    "location": "London"
+  },
+  {
+    "id": "13",
+    "name": "🎡 Summer Carnival",
+    "description": "Join the fun with rides, games, and delicious treats.",
+    "image": "https://picsum.photos/seed/11/200/300",
+    "date": "2024-08-15",
+    "location": "Orlando"
+  },
+  {
+    "id": "14",
+    "name": "🎤 Jazz Night",
+    "description": "Relax with smooth tunes and excellent live performances.",
+    "image": "https://picsum.photos/seed/12/200/300",
+    "date": "2024-09-05",
+    "location": "New Orleans"
+  },
+  {
+    "id": "15",
+    "name": "🎹 Classical Concert",
+    "description": "Experience timeless pieces performed by a world-class orchestra.",
+    "image": "https://picsum.photos/seed/13/200/300",
+    "date": "2024-10-11",
+    "location": "Vienna"
+  },
+  {
+    "id": "16",
+    "name": "🏃 Marathon",
+    "description": "Push your limits in one of the most challenging city marathons.",
+    "image": "https://picsum.photos/seed/14/200/300",
+    "date": "2024-04-18",
+    "location": "Boston"
+  },
+  {
+    "id": "17",
+    "name": "🚴 Bike Tour",
+    "description": "Cycle through scenic routes in a guided tour.",
+    "image": "https://picsum.photos/seed/15/200/300",
+    "date": "2024-03-29",
+    "location": "Amsterdam"
+  },
+  {
+    "id": "18",
+    "name": "🎪 Circus Extravaganza",
+    "description": "Enjoy a spectacular display of acrobatic and animal performances.",
+    "image": "https://picsum.photos/seed/16/200/300",
+    "date": "2024-12-01",
+    "location": "Las Vegas"
+  },
+  {
+    "id": "2",
+    "name": "🎭 Hamilton",
+    "description": "Award-winning musical about Alexander Hamilton.",
+    "image": "https://picsum.photos/seed/17/200/300",
+    "date": "2024-03-15",
+    "location": "London"
+  },
+  {
+    "id": "3",
+    "name": "🎾 Wimbledon Finals",
+    "description": "Watch the thrilling Wimbledon Men's Singles Final.",
+    "image": "https://picsum.photos/seed/18/200/300",
+    "date": "2024-07-14",
+    "location": "London"
+  }
+]

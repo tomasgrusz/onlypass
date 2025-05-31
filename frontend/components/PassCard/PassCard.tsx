@@ -1,6 +1,7 @@
 import React from "react";
 import moment from "moment";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
+import { cn } from "@/lib/utils";
 
 interface PassCardProps {
   name: string;
@@ -12,24 +13,38 @@ interface PassCardProps {
   location: string;
 }
 
-const PassCard: React.FC<PassCardProps> = ({ name, image, date, location }) => {
+const PassCard: React.FC<PassCardProps> = ({
+  name,
+  image,
+  date,
+  location,
+  issuedTo,
+}) => {
   return (
-    <div style={styles.card}>
+    <div
+      style={styles.card}
+      className={cn("bg-gray-800 text-gray-300 border-none")}
+    >
       <img src={image} alt={`${name} image`} style={styles.image} />
-      <div style={styles.content} className="flex flex-col gap-2">
+      <div
+        style={styles.content}
+        className="flex flex-col justify-between gap-2 h-[100px]"
+      >
         <h2 style={styles.title} className="text-sm truncate">
           {name}
         </h2>
-        <p className="text-sm flex align-center text-center gap-1">
-          grusz.eth{" "}
-          <Avatar
-            className="inline-block"
-            style={{ width: "20px", height: "20px" }}
-          >
-            <AvatarImage src="./user-icon.png" />
-            <AvatarFallback>TG</AvatarFallback>
-          </Avatar>
-        </p>
+        {issuedTo && (
+          <p className="text-sm flex align-center text-center gap-1">
+            grusz.eth{" "}
+            <Avatar
+              className="inline-block"
+              style={{ width: "20px", height: "20px" }}
+            >
+              <AvatarImage src="./user-icon.png" />
+              <AvatarFallback>TG</AvatarFallback>
+            </Avatar>
+          </p>
+        )}
         <p className="text-xs">
           {location}, {moment(date).format("MMM Do YY")}
         </p>
@@ -40,7 +55,6 @@ const PassCard: React.FC<PassCardProps> = ({ name, image, date, location }) => {
 
 const styles: { [key: string]: React.CSSProperties } = {
   card: {
-    border: "1px solid #ccc",
     borderRadius: "8px",
     overflow: "hidden",
     width: "150px",

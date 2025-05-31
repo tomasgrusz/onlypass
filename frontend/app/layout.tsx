@@ -8,6 +8,8 @@ import Header from "@/components/Header/Header";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import { cn } from "@/lib/utils";
+import { Home, Search, Ticket, User } from "lucide-react";
+import Navbar from "@/components/Navbar/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,13 +42,11 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} ${plusJakartaSans.variable} antialiased`}
         >
           <Header />
-          <SidebarProvider>
-            <Sidebar />
-            <main>
-              <SidebarTrigger className={cn(styles.SidebarTrigger)} />
-              {children}
-            </main>
-          </SidebarProvider>
+          <main>
+            {children}
+            {/* Bottom Navigation */}
+            <Navbar />
+          </main>
         </body>
       </MiniKitProvider>
     </html>
