@@ -8,9 +8,10 @@ contract NFTicket is ERC721 {
     uint256 public tokenCounter;
 
     struct NFTDetails {
-        string location;
-        string date;
-        string name;
+        string location;   // adresa
+        string date;       // dátum (ako string, prípadne môžeš použiť uint256 ak chceš timestamp)
+        string title;       // názov
+        string signature;
     }
 
     mapping(uint256 => NFTDetails) private _tokenDetails;
@@ -23,10 +24,11 @@ contract NFTicket is ERC721 {
         address to,
         string memory location,
         string memory date,
-        string memory name
+        string memory title,
+	string memory signature
     ) public returns (uint256) {
         _safeMint(to, tokenCounter);
-        _tokenDetails[tokenCounter] = NFTDetails(location, date, name);
+        _tokenDetails[tokenCounter] = NFTDetails(location, date, title, signature);
         tokenCounter++;
         return tokenCounter - 1;
     }
@@ -34,10 +36,10 @@ contract NFTicket is ERC721 {
     function getNFTDetails(uint256 tokenId) public view returns (
         string memory location,
         string memory date,
-        string memory name
+        string memory title,
+	string memory signature
     ) {
         NFTDetails memory details = _tokenDetails[tokenId];
-        return (details.location, details.date, details.name);
+        return (details.location, details.date, details.title, details.signature);
     }
 }
-
