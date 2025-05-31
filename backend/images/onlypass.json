@@ -1,7 +1,7 @@
 {
   "name": "NFTicket #1",
   "description": "Ticket to the concert",
-  "image": "https://github.com/tomasgrusz/onlypass/blob/main/frontend/public/icon.svg",
+  "image": "https://raw.githubusercontent.com/tomasgrusz/onlypass/main/frontend/public/icon.svg",
   "attributes": [
     {
       "trait_type": "Location",
