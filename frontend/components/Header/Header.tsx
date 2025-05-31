@@ -14,7 +14,10 @@ const Header = () => {
         width={24}
         className={cn(styles.logo)}
       />
-      <label htmlFor="logo">OnlyPass</label>
+      <label htmlFor="logo" className={cn(styles.logoLabel)}>
+        <span>only</span>
+        <span>pass</span>
+      </label>
     </header>
   );
 };

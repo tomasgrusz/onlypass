@@ -38,10 +38,9 @@ const handleVerify = async (router: AppRouterInstance) => {
     }),
   });
 
-  // TODO: Handle Success!
   const verifyResponseJson = await verifyResponse.json();
   if (verifyResponseJson.status === 200) {
-    localStorage.setItem("isVerified", "true");
+    window.localStorage.setItem("isVerified", "true");
     router.push("/home");
   } else {
     localStorage.setItem("isVerified", "false");

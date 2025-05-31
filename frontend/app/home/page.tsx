@@ -10,7 +10,7 @@ export default function Home() {
   const router = useRouter();
   useEffect(() => {
     // To be replaced with actual verification logic
-    const isVerified = localStorage.getItem("isVerified") === "true";
+    const isVerified = window.localStorage.getItem("isVerified") === "true";
     if (!isVerified) {
       router.replace("/");
     }
