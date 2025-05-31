@@ -63,6 +63,7 @@ const recentPasses = [
     title: "Pass 1",
     url: "#",
     icon: <Ticket />,
+    enabled: true,
   },
 ];
 

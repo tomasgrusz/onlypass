@@ -1,5 +1,4 @@
 import React from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import moment from "moment";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
@@ -13,15 +12,7 @@ interface PassCardProps {
   location: string;
 }
 
-const PassCard: React.FC<PassCardProps> = ({
-  name,
-  description,
-  id,
-  issuedTo,
-  image,
-  date,
-  location,
-}) => {
+const PassCard: React.FC<PassCardProps> = ({ name, image, date, location }) => {
   return (
     <div style={styles.card}>
       <img src={image} alt={`${name} image`} style={styles.image} />
