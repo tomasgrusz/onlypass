@@ -1,0 +1,15 @@
+{
+  "name": "NFTicket #1",
+  "description": "Ticket to the concert",
+  "image": "https://yourdomain.com/images/ticket1.png",
+  "attributes": [
+    {
+      "trait_type": "Location",
+      "value": "Bratislava"
+    },
+    {
+      "trait_type": "Date",
+      "value": "2025-06-01"
+    }
+  ]
+}
