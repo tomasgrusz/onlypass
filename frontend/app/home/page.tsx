@@ -4,7 +4,7 @@ import PassCard from "@/components/PassCard/PassCard";
 import passesJson from "@/data/passes.json";
 import exploreJson from "@/data/explore.json";
 import styles from "./page.module.scss";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -15,13 +15,6 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState("Music");
 
   const categories = ["Music", "Sports", "Theater", "Comedy", "Arts"];
-  useEffect(() => {
-    // To be replaced with actual verification logic
-    const isVerified = window.localStorage.getItem("isVerified") === "true";
-    if (!isVerified) {
-      //   router.replace("/");
-    }
-  }, []);
 
   return (
     <div className={cn(styles.Home, "bg-[#E17B7B] pt-4 pb-8")}>

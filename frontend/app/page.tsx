@@ -6,8 +6,7 @@ import {
   VerificationLevel,
   VerifyCommandInput,
 } from "@worldcoin/minikit-js";
-import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
-import { useRouter } from "next/navigation";
+import { redirect } from "next/navigation";
 
 const verifyPayload: VerifyCommandInput = {
   action: "sign-in", // This is your action ID from the Developer Portal
@@ -15,7 +14,7 @@ const verifyPayload: VerifyCommandInput = {
   verification_level: VerificationLevel.Orb, // Orb | Device
 };
 
-const handleVerify = async (router: AppRouterInstance) => {
+const handleVerify = async () => {
   if (!MiniKit.isInstalled()) {
     return;
   }
@@ -40,8 +39,8 @@ const handleVerify = async (router: AppRouterInstance) => {
 
   const verifyResponseJson = await verifyResponse.json();
   if (verifyResponseJson.status === 200) {
-    window.localStorage.setItem("isVerified", "true");
-    router.push("/home");
+    alert("Verification successful!");
+    redirect("/home");
   } else {
     localStorage.setItem("isVerified", "false");
     alert("Verification failed. Please try again.");
@@ -49,11 +48,9 @@ const handleVerify = async (router: AppRouterInstance) => {
 };
 
 export default function Home() {
-  const router = useRouter();
-
   return (
     <div
-      onClick={() => handleVerify(router)}
+      onClick={handleVerify}
       className="flex flex-col items-center justify-center h-screen w-screen bg-[#E17B7B]"
     >
       <div className="flex flex-col flex-wrap items-center gap-2 md:flex-row ml-auto mr-auto">
