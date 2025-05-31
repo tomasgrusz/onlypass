@@ -7,7 +7,7 @@ interface PassCardProps {
   name: string;
   description: string;
   id: string;
-  issuedTo: string;
+  issuedTo?: string;
   image: string;
   date: string;
   location: string;

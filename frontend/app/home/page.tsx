@@ -5,7 +5,6 @@ import passesJson from "@/data/passes.json";
 import exploreJson from "@/data/explore.json";
 import styles from "./page.module.scss";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -81,7 +80,6 @@ export default function Home() {
               name={pass.name}
               description={pass.description}
               image={pass.image}
-              issuedTo={pass.issuedTo}
               date={pass.date}
               location={pass.location}
             />
