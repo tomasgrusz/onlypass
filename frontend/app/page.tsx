@@ -41,10 +41,10 @@ const handleVerify = async (router: AppRouterInstance) => {
   // TODO: Handle Success!
   const verifyResponseJson = await verifyResponse.json();
   if (verifyResponseJson.status === 200) {
-    window.localStorage.setItem("isVerified", "true");
+    localStorage.setItem("isVerified", "true");
     router.push("/home");
   } else {
-    window.localStorage.setItem("isVerified", "false");
+    localStorage.setItem("isVerified", "false");
     alert("Verification failed. Please try again.");
   }
 };
