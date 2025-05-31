@@ -6,7 +6,7 @@ async function main() {
 
   const provider = ethers.provider;
 
-  const wallet = new ethers.Wallet("0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80", provider);
+  const wallet = new ethers.Wallet("PK", provider);
 
   const NFTt = await hre.ethers.getContractFactory("NFTicket", wallet);
   const deployedAddress = "0xD83C9f1B0DaFb1992eF92ac62D6509e54AD4eD48";  
