@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <div className={cn(styles.Home, "bg-[#E17B7B] pt-4 pb-8")}>
-      <h2 className="text-white text-xl font-bold">Active Passes</h2>
+      <h2 className="text-white text-xl font-bold pt-4">Active Passes</h2>
       <div className={styles.passList}>
         <div className={styles.passesWrapper}>
           {passesJson.map((pass) => (
