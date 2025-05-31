@@ -9,6 +9,7 @@ const RouteTitle: Record<string, string> = {
   profile: "Profile",
   passes: "Passes",
   explore: "Explore",
+  "": "Sign In",
 };
 
 const Header = () => {

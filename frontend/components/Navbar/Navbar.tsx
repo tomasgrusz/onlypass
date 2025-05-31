@@ -5,6 +5,9 @@ import { usePathname, useRouter } from "next/navigation";
 const Navbar = () => {
   const router = useRouter();
   const pathname = usePathname();
+  if (pathname === "/") {
+    return null; // Hide the navbar on the sign-in page
+  }
   return (
     <div className="absolute bottom-0 left-0 right-0 bg-gray-800 px-6 py-4">
       <div className="flex justify-around items-center">

@@ -54,11 +54,13 @@ export default function Home() {
   return (
     <div
       onClick={() => handleVerify(router)}
-      className="flex flex-col items-center justify-center h-screen w-screen"
+      className="flex flex-col items-center justify-center h-screen w-screen bg-[#E17B7B]"
     >
       <div className="flex flex-col flex-wrap items-center gap-2 md:flex-row ml-auto mr-auto">
-        <Button>Verify your humanity</Button>
-        <p className="text-xs w-[200px] text-center">
+        <Button className="bg-gray-800">
+          Sign in by verifying your humanity
+        </Button>
+        <p className="text-sm w-[250px] text-center text-white">
           To access this application, we need to verify you&apos;re a real
           person.
         </p>
