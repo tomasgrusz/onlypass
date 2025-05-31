@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import styles from "./layout.module.scss";
 
 import { MiniKitProvider } from "@worldcoin/minikit-js/minikit-provider";
+import Header from "@/components/Header/Header";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import Sidebar from "@/components/Sidebar/Sidebar";
+import { cn } from "@/lib/utils";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +35,14 @@ export default function RootLayout({
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          {children}
+          <Header />
+          <SidebarProvider>
+            <Sidebar />
+            <main>
+              <SidebarTrigger className={cn(styles.SidebarTrigger)} />
+              {children}
+            </main>
+          </SidebarProvider>
         </body>
       </MiniKitProvider>
     </html>
