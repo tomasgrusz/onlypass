@@ -2,8 +2,6 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 require("@nomiclabs/hardhat-ethers");
 
-// deploying with address 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
-
 const config: HardhatUserConfig = {
   solidity: "0.8.28",
   networks: {
