@@ -44,12 +44,14 @@ Use this QR code to download the app inside the World Mini-App marketplace.
 ![Screenshot 2025-06-01 at 02 56 13](https://github.com/user-attachments/assets/2c6681a3-6014-4a11-984e-601c1fc89106)
 
 NFTicket factories have been deployed at:
-- Holesky Testnet:  0xD83C9f1B0DaFb1992eF92ac62D6509e54AD4eD48
-- flow EVM Testnet: 0x457cCf29090fe5A24c19c1bc95F492168C0EaFdb  
+- Holesky Testnet:  [0xD83C9f1B0DaFb1992eF92ac62D6509e54AD4eD48](https://eth-holesky.blockscout.com/token/0xD83C9f1B0DaFb1992eF92ac62D6509e54AD4eD48)
+- flow EVM Testnet: [0x457cCf29090fe5A24c19c1bc95F492168C0EaFdb](https://testnet.flowscan.io/evm/token/0x457cCf29090fe5A24c19c1bc95F492168C0EaFdb)
 
 
-There have been already minted several NFTickets manually:  
-https://private-user-images.githubusercontent.com/73120426/449602676-02eb22ad-96f1-4616-aab2-566fa5e0762d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg3NDY0MjMsIm5iZiI6MTc0ODc0NjEyMywicGF0aCI6Ii83MzEyMDQyNi80NDk2MDI2NzYtMDJlYjIyYWQtOTZmMS00NjE2LWFhYjItNTY2ZmE1ZTA3NjJkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjAxVDAyNDg0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM5YjkzYjIzYWIwMjc5YjhjYWIzNWQxZDc5NmJhNWEzZDc4Zjg4NzJkNTcxZWFkMWMwZTk5NTVhNGE5YmYzY2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.gntX_sk2nshcwDBnGI4DGJA_tGRJ1OLk5sL25p2XSXA![image](https://github.com/user-attachments/assets/2e84526a-49d1-44a1-92a1-bdd4a93e81a6)
+There have been already minted several NFTickets manually:
+(by owner 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266)
+<img width="720" alt="Screenshot 2025-05-31 at 21 47 56" src="https://github.com/user-attachments/assets/b16a1175-98ec-462b-85b1-0d8d83829f9a" />
+
 
 
 
