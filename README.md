@@ -43,6 +43,9 @@ Use this QR code to download the app inside the World Mini-App marketplace.
 
 ![Screenshot 2025-06-01 at 02 56 13](https://github.com/user-attachments/assets/2c6681a3-6014-4a11-984e-601c1fc89106)
 
+You can interact with our factories (addresses bellow) and call function creatNFT(...) or you can deploy your own and start creating new tickets using scripts in repo.
+
+
 NFTicket factories have been deployed at:
 - Holesky Testnet:  [0xD4798A50516b21Ab4658F458081fb7d78AC0a7D4](https://eth-holesky.blockscout.com/token/0xD4798A50516b21Ab4658F458081fb7d78AC0a7D4)
 - flow EVM Testnet: [0x457cCf29090fe5A24c19c1bc95F492168C0EaFdb](https://testnet.flowscan.io/evm/token/0x457cCf29090fe5A24c19c1bc95F492168C0EaFdb)
