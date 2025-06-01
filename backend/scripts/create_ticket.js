@@ -21,7 +21,7 @@ async function main() {
   const signature = "0x00112233445566778899aabbccddeeff";
   // --------------------------------------------------------------------------------------
 
-  const tx = await NFTi.createNFT(ticketOwner, location, date, title, tokenHash, signature);
+  const tx = await NFTi.createNFT(ticketOwner, location, date, title, tokenHash, signature "https://raw.githubusercontent.com/tomasgrusz/onlypass/main/backend/images/onlypass.json");
   await tx.wait();
 
   console.log("NFT minted to:", ticketOwner);
