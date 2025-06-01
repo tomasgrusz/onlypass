@@ -73,6 +73,7 @@ There have been already minted several NFTickets manually:
 ## Flow
 ![onlyPass_diagram-2](https://github.com/user-attachments/assets/6db41af6-3a1f-417b-9257-843bd8360b28)
 
+<img width="1095" alt="image" src="https://github.com/user-attachments/assets/cfad0693-8b61-4dc8-89a2-cc8babb18989" />
 
 
 
