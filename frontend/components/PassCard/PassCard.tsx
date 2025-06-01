@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 import moment from "moment";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
 
 interface PassCardProps {
   name: string;
@@ -14,16 +16,19 @@ interface PassCardProps {
 }
 
 const PassCard: React.FC<PassCardProps> = ({
+  id,
   name,
   image,
   date,
   location,
   issuedTo,
 }) => {
+  const router = useRouter();
   return (
     <div
       style={styles.card}
       className={cn("bg-gray-800 text-gray-300 border-none")}
+      onClick={() => router.push(`/pass/${id}`)}
     >
       <img src={image} alt={`${name} image`} style={styles.image} />
       <div

@@ -9,6 +9,7 @@ const RouteTitle: Record<string, string> = {
   profile: "Profile",
   passes: "Passes",
   explore: "Explore",
+  pass: "Pass",
   "": "Sign In",
 };
 
