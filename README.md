@@ -1,4 +1,4 @@
-# OnlyPass (WIP) 🎟️
+![onlyPass_diagram](https://github.com/user-attachments/assets/a3cce4ff-5e35-4764-8535-67eedaca06a3)# OnlyPass (WIP) 🎟️
 OnlyPass: Human-verified ticketing platform leveraging proof of personhood and blockchain-backed tickets.
 
 ## Overview
@@ -71,7 +71,9 @@ There have been already minted several NFTickets manually:
 ```
 
 ## Flow
+![Uploading onlyPass_diagram.svg…]()
 
-![Untitled-2025-06-01-0323](https://github.com/user-attachments/assets/729f8116-ed97-4772-a78c-06c90d607567)
+
+
 
 
