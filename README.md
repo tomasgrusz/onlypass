@@ -47,9 +47,11 @@ NFTicket factories have been deployed at:
 - Holesky Testnet:  [0xD4798A50516b21Ab4658F458081fb7d78AC0a7D4](https://eth-holesky.blockscout.com/token/0xD4798A50516b21Ab4658F458081fb7d78AC0a7D4)
 - flow EVM Testnet: [0x457cCf29090fe5A24c19c1bc95F492168C0EaFdb](https://testnet.flowscan.io/evm/token/0x457cCf29090fe5A24c19c1bc95F492168C0EaFdb)
 
-
 There have been already minted several NFTickets manually:
-(by owner 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266)
+
+<img width="1095" alt="image" src="https://github.com/user-attachments/assets/cfad0693-8b61-4dc8-89a2-cc8babb18989" />
+
+
 <img width="720" alt="Screenshot 2025-05-31 at 21 47 56" src="https://github.com/user-attachments/assets/b16a1175-98ec-462b-85b1-0d8d83829f9a" />
 
 
@@ -73,7 +75,6 @@ There have been already minted several NFTickets manually:
 ## Flow
 ![onlyPass_diagram-2](https://github.com/user-attachments/assets/6db41af6-3a1f-417b-9257-843bd8360b28)
 
-<img width="1095" alt="image" src="https://github.com/user-attachments/assets/cfad0693-8b61-4dc8-89a2-cc8babb18989" />
 
 
 
