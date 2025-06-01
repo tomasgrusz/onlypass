@@ -1,15 +1,5 @@
 {
   "name": "NFTicket #1",
   "description": "Ticket to the concert",
-  "image": "https://raw.githubusercontent.com/tomasgrusz/onlypass/main/frontend/public/icon.svg",
-  "attributes": [
-    {
-      "trait_type": "Location",
-      "value": "Buenos Aires"
-    },
-    {
-      "trait_type": "Date",
-      "value": "2025-06-01"
-    }
-  ]
+  "image": "https://raw.githubusercontent.com/tomasgrusz/onlypass/main/frontend/public/icon.svg"
 }
