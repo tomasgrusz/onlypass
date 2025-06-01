@@ -1,6 +1,4 @@
 import passesJson from "@/data/passes.json";
-import { cn } from "@/lib/utils";
-import styles from "./page.module.scss";
 import LargePassCard from "@/components/LargePassCard/LargePassCard";
 
 export default async function Pass({
